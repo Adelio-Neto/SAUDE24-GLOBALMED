@@ -79,7 +79,9 @@ h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
-
+.text-color-modal {
+  color: #df1529;
+}
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
@@ -1894,9 +1896,9 @@ h6 {
   margin-bottom: 20px;
 }
 
-.footer .footer-main .footer-widget .logo span {
+.footer .footer-main .footer-widget .logo span img {
   color: var(--heading-color);
-  font-size: 28px;
+  width: 200px;
   font-weight: 700;
   letter-spacing: 0.5px;
   font-family: var(--heading-font);
